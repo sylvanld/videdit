@@ -19,7 +19,7 @@ jobs:
       
       # Build python package, then upload it to PyPI
       - name: Build and publish python package to pypi
-        uses: sylvanld/actions/python-release@main
+        uses: sylvanld/actions/release-pypi@main
         with:
           username: ${{secrets.PYPI_USERNAME}}
           password: ${{secrets.PYPI_PASSWORD}}
